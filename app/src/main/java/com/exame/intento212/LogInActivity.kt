@@ -66,7 +66,7 @@ class LogInActivity : BaseActivity() {
             auth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener() { task ->
                     if (task.isSuccessful) {
-                        startActivity(Intent(this, MainActivityNavegation::class.java))
+                        startActivity(Intent(this, MainActivity::class.java))
                         finish()
                         hideProgressBar()
                     } else {
@@ -111,7 +111,7 @@ class LogInActivity : BaseActivity() {
         val credential = GoogleAuthProvider.getCredential(account.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener{
             if (it.isSuccessful) {
-                startActivity(Intent(this,MainActivityNavegation::class.java))
+                startActivity(Intent(this,  MainActivity::class.java))
                 finish()
                 hideProgressBar()
             } else {

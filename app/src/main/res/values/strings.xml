@@ -4,14 +4,4 @@
     <string name="forgot_password_msg">Don\'t worry! it happens. Please enter the email address associated with your account.</string>
     <string name="on_submit_msg">Check out your mailbox, you will receive an email containing link where you can reset your password</string>
 
-    <string name="title_home">Inicio</string>
-    <string name="title_chat">Chats</string>
-    <string name="title_profile">Perfil</string>
-    <string name="all">TODO</string>
-    <string name="description">Descripción</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_main_navegation">MainActivityNavegation</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
 </resources>

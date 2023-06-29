@@ -48,7 +48,7 @@ class SignInActivity : BaseActivity() {
                     if (task.isSuccessful) {
                         showToast(this, "El usuario fue creado correctamente")
                         hideProgressBar()
-                        startActivity(Intent(this, MainActivityNavegation::class.java))
+                        startActivity(Intent(this, MainActivity::class.java))
                         finish()
                     } else {
                         showToast(this, "El usuario no fue creado")

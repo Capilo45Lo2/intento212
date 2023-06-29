@@ -6,14 +6,9 @@ import androidx.fragment.app.Fragment
 import com.exame.intento212.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_main)
-
-
 
     }
 
